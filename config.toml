@@ -1,0 +1,48 @@
+title = "Me - ragasirtahk - Sagar Khatri"
+baseURL = "/"
+tags = ["portfolio", "blog"]
+languageCode = "en-US"
+config = "config.toml"
+theme = "osprey"
+canonifyURLS = true
+googleAnalytics = "UA-96539727-5"
+disqusShortname = "the-ragasirtahk-blog"
+disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use "tag" and "category" taxonomies
+
+[Params]
+    tagline = "Sagar Khatri"
+    author = "Sagar Khatri"
+    description = "Student at DPS Sonepat. Open Source Enthusiast | Blogger | Quizzer | Conversationalist"
+    logoBig = "/images/ragasirtahk.png"
+    logoSmall = "/images/ragasirtahk.png"
+    favicon = "favicon.png"
+    opengraphImage = "/images/ragasirtahkog.png"
+    twitter = "ragasirtahk"
+    linkedin = "ragasirtahk"
+    github = "ragasirtahk"
+    email = "khatri.sagar.sk@gmail.com"
+    googleTagManger = ""
+    highlightJS = true
+    copyright = true
+    credit = false
+    customCSS = false
+    cacheBustCSS = false
+    cacheBustJS = false
+    ajaxFormspree = true
+
+[[menu.main]]
+    name = "About"
+    url  = "/#about"
+    weight = 1
+[[menu.main]]
+    name = "Work"
+    url  = "/#work"
+    weight = 2
+[[menu.main]]
+    name = "Blog"
+    url  = "https://www.ragasirtahk.tk"
+    weight = 3
+[[menu.main]]
+    name = "Contact"
+    url  = "/#contact"
+    weight = 4

@@ -4,7 +4,7 @@
         <div class="row center-xs">
             <div class="col-xs-12"><h1>Let's Chat</h1></div>
         </div>
-        <form id="form-contact" action="https://formspree.io/{{ .Site.Params.email }}" method="POST">
+        <form id="form-contact" method="POST" netlify>
             <div class="row center-xs">
                 <div class="col-xs-12 col-sm-6"><input type="text" name="name" placeholder="Name" required></div>
                 <div class="col-xs-12 col-sm-6"><input type="email" name="email" placeholder="Email" required></div>
